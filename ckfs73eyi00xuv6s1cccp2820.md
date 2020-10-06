@@ -1,9 +1,5 @@
 ## DevOps 101 - Dockerizing your Next.js application - Part 2
 
-
-![Next-Docker.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1601637324521/DJudOTc3u.png)
-
-
 Next.js is the powerful react framework that solves different problems like Server Side Rendering, Pre-rendering, SEO, etc. It is very straightforward to implement it in any React Projects.
 
 Advantages of using Next.js in your next project - 
