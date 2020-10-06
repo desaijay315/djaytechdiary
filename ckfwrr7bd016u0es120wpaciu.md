@@ -137,7 +137,7 @@ npm install --save cors
 
 ## Cross-Site Request Forgery
 
-CSRF is a technique which allows the attacker to do any malicious tasks on behalf of the victim. It exploits a vulnerability in the application where the actual request and the forged request cannot be differentiated. Think, what if the attacker changes the password of your bank account and transfer all your money. Such attacks are as session-hijacking in which a user session is taken over by the attacker. 
+CSRF is a technique which allows the attacker to do any malicious tasks on behalf of the victim. It exploits a vulnerability in the application where the actual request and the forged request cannot be differentiated. Think, what if the attacker changes the password of your bank account and transfer all your money. Such attacks are called session-hijacking in which a user session is taken over by the attacker. 
 
 Install csurf:
 
