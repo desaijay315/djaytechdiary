@@ -23,7 +23,7 @@ In this article, we would dockerize our Next.js application by creating a custom
 
 If you want to learn more about docker, here you go:
 
-%[https://levelup.gitconnected.com/docker-the-beginners-guide-85a27e50c271]
+%[https://djaytechdiary.com/what-is-docker-and-why-it-is-so-popular]
 
 This article is a part of our devops series and here is part one from our series:
 
