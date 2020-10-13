@@ -296,4 +296,4 @@ console.log(typeof add); //string
 
 In this article, we saw some of the essential concepts of JavaScript which are very important for any developer to begin with the JavaScript language. I hope you now have a good understanding of these important concepts.
 
-In the next article, we shall discuss more concepts of JavaScript, until then feel free to explore the world of JavaScript.
+In the  [next article](https://djaytechdiary.com/javascript-essentials-string-methods-scopes-and-switches) , we shall discuss more concepts of JavaScript, until then feel free to explore the world of JavaScript.
