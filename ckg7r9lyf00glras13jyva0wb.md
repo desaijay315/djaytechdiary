@@ -216,7 +216,7 @@ switch (action) {
 }
 ```
 
-### Advanced Switch Use Case
+### Advanced Switch
 
  - If you ever need multiple cases in a switch statement, then you can use fallthrough or cascading feature of the switch statement.
 
