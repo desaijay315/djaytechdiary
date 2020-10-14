@@ -1,4 +1,4 @@
-## Template Literals and Arrays in JavaScript
+## Map, Filter, Reduce and Template Literals in JavaScript
 
 In the first & second part of this series of JavaScript, we took a look at some of the concepts like let and const, type conversion, primitive and reference types, switches and Hoisting.
   
