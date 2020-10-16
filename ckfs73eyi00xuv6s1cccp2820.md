@@ -78,6 +78,7 @@ If you want to learn more about docker, here you go:
 
 In this article, we have learned how to deploy the Next.Js app with a custom server and how can we dockerize the next.js application. The similar steps can be applied to any Node.js, React.js, angular or Vue js applications. Please feel free to implement on your own.
 
+In our next article, we would be deploying the Next.Js application on Ansible. This will add one more devops tools in our bucket and help us to automate our entire CI/CD pipeline.
 
 Feel Free to reach out to me if you face any issues on  [Twitter](https://twitter.com/beingjaydesai) 
 
