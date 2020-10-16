@@ -1,8 +1,12 @@
-## DevOps 101 - Dockerizing your Next.js application - Part 2
+## DevOps 101 - Dockerizing your Next.js application
 
 Next.js is the powerful react framework that solves different problems like Server Side Rendering, Pre-rendering, SEO, etc. It is very straightforward to implement it in any React Projects.
 
-Advantages of using Next.js in your next project - 
+In this article, we would learn how to dockerize our Next.js application by creating a customer server *(with  [express.js](http://expressjs.com/))* on our local machine with a production environment. With the help of our CI/CD pipeline, we would be deploying this project on the Kubernetes.
+
+
+**Advantages of using Next.js in your next project - 
+**
 
 - Built-in CSS and Sass support
 - Automatic Static Optimization
@@ -11,26 +15,16 @@ Advantages of using Next.js in your next project -
 - Development Environment supports hot module reloading
 - Trusted and used by big companies of the world
 
-
 These are some reasons why I love Next.js. If you want to learn more about Next.js, visit  [here](https://nextjs.org/learn/basics/create-nextjs-app)
   
 
 **Docker** 
 
-Docker has grown rapidly in popularity and has been adopted by many companies and teams. Docker helps to speed up this process by making it easier to link together small, independent services locally. 
+Docker has grown rapidly in popularity and has been adopted by many companies and teams. Docker helps to speed up this process by making it easier to link together small, independent services locally.
 
-In this article, we would dockerize our Next.js application by creating a customer server on our local machine with a production environment. With the help of our CI/CD pipeline, we would be deploying this project on the Kubernetes.
-
-If you want to learn more about docker, here you go:
-
-%[https://djaytechdiary.com/what-is-docker-and-why-it-is-so-popular]
-
-This article is a part of our devops series and here is part one from our series:
-
-%[https://djaytechdiary.com/install-and-configure-jenkins-on-amazon-ami?guid=9aaa1535-0d09-4f7e-a348-0c754907f335&deviceId=cdc869e5-1ba3-41e0-be28-fdd1968008eb]
+Now, let's create and configure the next.js app and dockerize it.
 
 ### Creating the Next.Js App
-
 
 ```
 npx create-next-app kubernetes-next-app
@@ -75,7 +69,12 @@ yarn add express
 
 ![welcome to next.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1601636129031/Dv1DZdMcO.png)
 
-***Conclusion***
+If you want to learn more about docker, here you go:
+
+%[https://djaytechdiary.com/what-is-docker-and-why-it-is-so-popular]
+
+
+### Conclusion
 
 In this article, we have learned how to deploy the Next.Js app with a custom server and how can we dockerize the next.js application. The similar steps can be applied to any Node.js, React.js, angular or Vue js applications. Please feel free to implement on your own.
 
