@@ -1,12 +1,18 @@
-## DevOps 101 - Installing & Deploying Jenkins on AWS server - Part 1
+## DevOps 101 - Deploying & Configuring Jenkins on AWS server
 
 
 ![devops image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1601637194676/LME_wBajG.png)
 
-In this series, we are going to see how we can enable the entire CI/CD pipeline for a Nextjs app. This can also help for any of your other NodeJs projects. It will enable a very minimal setup time with maximum output for the developers who want to spend more time working on the application features. This is a hands-on guide featuring all the tools we would be using in our continuous integration and continuous deployment process, hence my recommendation is to practice, run commands while you go through the blog.
+Hello!
 
+In this series, we are going to learn how we can enable the entire devops CI/CD pipeline for a custom application that can be deployed to the production. The goal of this series to deploy our Next.js application on Kubernetes.
 
-Let’s discuss some of the pros of continuous integration and continuous deployment.
+Our CI/CD pipeline build in our DevOps Bootcamp series can be used across all the NodeJs, Angular, React.Js and Vue.Js projects. It will enable a very minimal setup time with maximum output for the developers who want to spend more time working on the application features. 
+
+This is a hands-on guide featuring all the tools we would be using in our continuous integration and continuous deployment process, hence my recommendation is to practice, run commands while you go through the articles.
+
+**Let’s discuss some of the pros of continuous integration and continuous deployment.**
+
 
 - Faster Release Cycle
 - Fewer Bugs
@@ -22,11 +28,10 @@ Let’s discuss some of the pros of continuous integration and continuous deploy
 - Ansible
 - Docker
 - Kubernetes
-- NodeJs
-- NextJs
+-  [Node](https://nodejs.org/en/) 
+-  [Next.Js](https://nextjs.org/) 
 
 ### Pre-Requisites
-
 
 1. Create an AWS account - https://aws.amazon.com
 2. Little knowledge of Next.js and Node.js would be great, but not necessary for our setup. CodeBase for the entire setup -  [https://github.com/desaijay315/kubernetes-with-nextjs-app](Link) 
@@ -34,16 +39,13 @@ Let’s discuss some of the pros of continuous integration and continuous deploy
 In this part, we would be focusing on installing and deploying Jenkins on the AWS server as our first step towards CI/CD pipeline.
 
 
-**Create an EC2 instance
-**
+**Create an EC2 instance**
+
 - Login to your AWS account
 - Go to services and select EC2 Instance
-- Choose an Amazon Linux Image. (You can also choose any other image as per the requirement)
-
+- Choose an Amazon Linux Image. (You can also choose any other image as per your requirement)
 
 ![Choose an amazon Linux image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1601442432505/AlD_TMci6.png)
-
-
 
 - Choose an Instance Type
 
@@ -173,8 +175,7 @@ Change the name value from **Default to GitHub and uncheck install automatically
 
 **Conclusion**
 
-In this part, we deployed a Jenkins server on our AWS instance. In the next part, we will configure our NextJs app.
+In this article, we installed and deployed Jenkins on our AWS server. We learned how different plugins can be configured and installed, and how the default port of our Jenkins server can be changed.
 
-Feel Free to reach out to me if you face any issues on  [Twitter](https://twitter.com/BeingJayDesa)
+In the  [next article](https://djaytechdiary.com/dockerize-your-next-js-application), we will configure our NextJs app and dockerize the application.
 
-Check out my  [LinkedIn](https://www.linkedin.com/in/iamjaydesai)  | See my  [GitHub](www.github.com/desaijay315)
