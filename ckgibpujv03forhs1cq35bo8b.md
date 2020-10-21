@@ -35,9 +35,9 @@ database.query("SELECT * FROM users", function(result) {
 console.log("run another query");
 ```
 
-Synchronous code (Blocking) - In the above example, the code will run sequentially and all the steps will be completed synchronously.
+**Synchronous code (Blocking)** - In the above example, the code will run sequentially and all the steps will be completed synchronously.
 
-Asynchronous code (Non-Blocking) - The next code in the sequence will run and it won't the be blocked by the previous one.
+**Asynchronous code (Non-Blocking)** - The next code in the sequence will run and it won't the be blocked by the previous one.
 
 
 ### Callback
