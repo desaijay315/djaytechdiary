@@ -229,7 +229,7 @@ We have achieved the same thing which we were doing with promises using async / 
 - Difference between Synchronous vs Asynchronous
 - Callbacks
 - Promises & how it can help us to tackle callback hell
-- Async/Await - How is uses promises and it's more readable and simple to understand
+- Async/Await - How it uses promises and it's more readable and simple to understand
 
 Let me know the scenarios in which you have found yourself using the above concepts and how you have made your code more readable. What would you do differently the next time?
 
