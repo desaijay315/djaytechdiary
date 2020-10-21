@@ -21,7 +21,7 @@ For instance, if we need to do some heavy lifting with expensive database querie
 
 The way of writing such an application with CPU intensive and heavy database queries can be solved by using asynchronous code. It will indicate to the user some progress while running the I/O operations in the background.
 
-```
+```js
 //Synchronous code
 const result = database.query("SELECT * FROM users");
 console.log("query executed");
