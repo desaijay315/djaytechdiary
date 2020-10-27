@@ -446,11 +446,14 @@ kubectl get svc --all-namespaces
 
 ### Conclusion
 
-In this article, we learned how to install Kubernetes on the AWS Ubuntu instance, how we can create the Ansible playbooks, how we can deploy the application on Kubernetes.
+If you made it this far congratulation! 🎉
+In this article, we learned how to install Kubernetes on the AWS Ubuntu instance, how we can create the Ansible playbooks, how we can deploy the application on Kubernetes🎉
 
-We can also apply similar learning and deploy Node.js, Angular, React, Vue, and all the Javascript applications in a similar fashion. 
+We can also apply similar learning and deploy Node.js, Angular, React, Vue, and all the Javascript applications in a similar fashion🔥
 
-Until then feel free to explore the world of DevOps. Let me know if you face any issues or have any query in the comment section below.
+Until then feel free to explore the world of DevOps🔥
+
+Let me know if you face any issues or have any query in the comment section below.
 
 > _Follow me on_ [_Twitter_](http://www.twitter.com/beingjaydesai) _| Check out my_ [_LinkedIn_](https://www.linkedin.com/in/iamjaydesai/) _| See my_ [_GitHub_](https://github.com/desaijay315)
 
