@@ -1,7 +1,5 @@
 ## Deploying Next.js on Kubernetes
 
-Hello!
-
 This article is a part of our ongoing DevOps  [series](https://djaytechdiary.com/install-and-configure-jenkins-on-amazon-ami). 
 
 *As a part of our devops series, we have learned:*
