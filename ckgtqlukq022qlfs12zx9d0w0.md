@@ -291,4 +291,4 @@ I have created the repository on Github, please feel free to fork the code and t
 
 **GitHub Repo: **  [React17-Webpack4-Babel7-2021](https://github.com/desaijay315/react-webpack-babel-2021) 
 
-If you liked it please leave some love for this article to show your support and let me know if you would like to write more on React.js. Leave your responses below and reach out to me if you face any issues.
+If you liked it please leave some love for this article to show your support and let me know if you would like me to write more on React.js. Leave your responses below and reach out to me if you face any issues.
