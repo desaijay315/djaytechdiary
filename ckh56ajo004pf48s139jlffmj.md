@@ -1,4 +1,4 @@
-## Building a GraphQL APIs with Node.js and Express
+## Building APIs with GraphQL, Node.js and Express
 
 In my previous article,  [*A Gentle Introduction to GraphQL*](https://djaytechdiary.com/why-graphql-is-the-future-a-gentle-introduction-to-graphql), we learned what is graphQL and how can we generate GraphQL queries.
 
