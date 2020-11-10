@@ -1,4 +1,4 @@
-## Build and publish your first NPM package
+## Build and Publish your First NPM package
 
 ### What is NPM?
 
