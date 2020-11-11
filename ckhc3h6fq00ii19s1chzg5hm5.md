@@ -7,7 +7,7 @@ NPM stands for Node Package Manager. It is an open-source project created in 200
 
 ### What we need to build/publish?
 
-This focus of this article is to build and publish a simple npm package in a few simple steps. We would be creating two validation functions which validate whether the URL provided as a parameter is a valid website URL or not. Our second function will validate whether the email is a valid email or not.
+The focus of this article is to build and publish a simple npm package in a few simple steps. We would be creating two validation functions which validate whether the URL provided as a parameter is a valid website URL or not. Our second function will validate whether the email is a valid email or not.
 
 You will be able to add many more functionalities to our npm package and publish it to share it with the internal team members as well as publicly.
 
