@@ -381,6 +381,13 @@ server.start(options, ({ port }) =>
 ![chrome-capture (1).gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1604596297253/vE4KHeAIf.gif)
 
 
+If you are looking for the serverless learnings, you can check out this amazing book:
+
+
+%[https://www.manning.com/books/serverless-architectures-on-aws-second-edition?utm_source=jay-desai-manning-publications&utm_medium=affiliate&utm_campaign=book_sbarski2_serverless_7_27_18&a_aid=jay-desai-manning-publications&a_bid=ff3772c1]
+
+
+
 ### Conclusion
 
 In this article, we have learned the practical way of implementing GraphQL APIs with a GraphQL server in action.
