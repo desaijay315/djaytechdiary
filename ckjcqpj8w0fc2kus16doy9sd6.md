@@ -136,7 +136,8 @@ npm install nodemon --save-dev
 
 As you see, in scripts, kindly **add dev and start to the scripts**
 
-### Create an index.js file into the root of our project folder “nodejs_auth”:
+**Create an index.js file into the root of our project folder “nodejs_auth”:
+**
 
 
 ```sh
@@ -144,7 +145,8 @@ mkdir src
 touch src/index.js
 ```
 
-### Set up the express server with below code
+**Set up the express server with below code
+**
 
 ```js
 const express     = require('express')
@@ -166,13 +168,14 @@ mkdir db
 touch db/mongoose.js
 ```
 
-### Connect your DB with below code
+**Connect your DB with below code
+**
 
 
 ```js
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://<user>:<password>@ds127644.mlab.com:27644/nodeauth',{
+mongoose.connect('mongodb://<user>:<password>@ds127644.atlas.com:27644/nodeauth',{
     useNewUrlParser: true,
     useCreateIndex: true
 }).then(() =>{
@@ -192,8 +195,6 @@ From your root folder, kindly run **npm run dev,** and you will see our applicat
 
 
 ![2_mongodb.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1609408410223/W6k6JDGVW.png)
-
-Node server up and running
 
 **Create the users, post and comment schemas
 **
